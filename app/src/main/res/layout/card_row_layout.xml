@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+
+        android:cacheColorHint="?attr/backgroundTint"
+        android:fadingEdgeLength="10dp"
+        android:requiresFadingEdge="horizontal|vertical"
+        android:id="@+id/cardRowCardView">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/titleRowTextView" tools:text="タイトル"
+                android:textSize="24sp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/contentRowTextView" tools:text="内容"
+                android:textSize="18sp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/postNameText"
+                tools:text="投稿者名" android:gravity="end"/>
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/cardTagRecyclerView"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content" android:id="@+id/dateRowTextView" tools:text="日付"
+                    android:layout_weight="1.5"/>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/likeCountTextView" android:layout_weight="1"
+                    tools:text="いいね数:123"/>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/commentCountTextView"
+                    android:layout_weight="1" tools:text="悪い数:12"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

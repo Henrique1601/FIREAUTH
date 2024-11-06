@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "801403842754",
+    "firebase_url": "https://ideasharing-8a024.firebaseio.com",
+    "project_id": "ideasharing-8a024",
+    "storage_bucket": "ideasharing-8a024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801403842754:android:4b5930b4afaaf801",
+        "android_client_info": {
+          "package_name": "momonyan.ideasharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801403842754-bhq6s9dlantb257dl80hvujn0ieqb75d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "momonyan.ideasharing",
+            "certificate_hash": "4f6d30c793088e9f70a90647cb54af45e16fd8ff"
+          }
+        },
+        {
+          "client_id": "801403842754-k8gjkr526ouhp4btooro3ndi0e3rkup2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "momonyan.ideasharing",
+            "certificate_hash": "76c37af5142f9c4fede2013d12a2194d4da262ad"
+          }
+        },
+        {
+          "client_id": "801403842754-afrke4reatmblgc43ih226o8mc1o12am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdPqwjc-wTFfe2t_SEbNHX_hc7SBApyZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801403842754-afrke4reatmblgc43ih226o8mc1o12am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6499097800180510~7424909357"
+    }
+  ],
+  "configuration_version": "1"
+}
